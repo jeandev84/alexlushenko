@@ -1,0 +1,8 @@
+h5, div, p, span {
+    background: orange;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    height: 40px;
+    width: 300px;
+    display: inline-block;
+}

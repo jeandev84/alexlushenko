@@ -1,0 +1,55 @@
+/* 
+  существует (2) вида шрифта по умолчанию в любом ОС "serif/sans-serif"
+
+  Arial (шрифт для windows)
+  Helvetica (шрифт для Mac)
+  FreeSans (шрифт для Linux Ubuntu)
+  Liberation Sans (шрифт для Iphone)
+  Nimbus Sans L   (шрифт для Android)
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  браузер смотреть если мы на ОС windows подключает Arial, если на Mac, Linux подключает Helvetica
+  если ничего не найдено то sans-serif подключает
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    /* color: #666; */
+    color: rgb(4, 204, 255);
+}
+
+h1 {
+    /* color: green; */
+    font-weight: normal; /* bold (800), bolder (700), lighter(), (normal) 400 [100 - 900]*/
+    /* font-style: italic; */
+}
+
+p {
+    font-size: 16px;
+}
+
+/* 
+span {
+    color: green;
+    background: yellow;
+} 
+*/
+
+.span-green-bg {
+   background: green;
+   color: yellow;
+}
+
+.span-red-bg {
+    background: red;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+span {
+   /* text-transform: uppercase; */
+}
